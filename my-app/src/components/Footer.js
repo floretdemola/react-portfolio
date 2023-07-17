@@ -6,15 +6,16 @@ const linkedIn = "https://www.linkedin.com/in/fernando-loret-de-mola-3797b68b/";
 
 const styles = {
     footer: {
-        padding: 10,
+        padding: 20,
         color: "#000000",
         textdecoration: "none",
+        display: "flex",
+        flexdirection: 'row',
+        justifycontent: 'space-between',        
         letterspacing: 2,
-        position: "relative",
-        whitespace: "nowrap",
         fontsize: 'large',
-        fontweight: 500,
-        margin: 4,
+        fontweight: 400,
+        margin: 10,
     },
     h2: {
         fontsize: "20px",
@@ -24,7 +25,8 @@ const styles = {
         marginLeft: 5,
     },
     button: {
-        display: "flex",
+        margin: 10,
+        color: 'aba9b3',
         background: "#858585",
         fontsize: "15px",
         color: "#2c2c2c",

@@ -9,18 +9,18 @@ const styles = {
         background: "#2c2c2c",
         display: "flex",
         margin: 20,
-        justifycontent: "space-between",
+        justifycontent: "center",
     },
     h1: {
         fontSize: "36px",
         fontweight: "bolder",
-        color: "#aba9b3"
+        color: "#aba9b3",
+
     },
     h3: {
         fontSize: "30px",
         fontWeight: "bolder",
         color: "#aba9b3",
-        justifyItems: "end",
     },
 };
 

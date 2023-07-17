@@ -36,6 +36,8 @@ const styles = {
         padding: 20,
         alightItems: "center",
         display: "flex",
+        justifyContent: "space-around"
+
     },
     button: {
         display: 'flex',

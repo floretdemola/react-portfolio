@@ -24,17 +24,27 @@ const styles = {
         color: "#2c2c2c",
         alightItems: "center",
         display: "flex",
+        justifyContent: "space-around"
     },
     button: {
+        padding: 20,
         display: 'flex',
         alignitems:'center',
         color: '2c2c2c',
     },
     resume: {
         display: "flex",
+        padding: 20,
         flexDirection: "column",
         alignitems: "center",
         width: "100vw",
+        margin: 10,
+        color: 'aba9b3',
+        fontsize: "15px",
+        borderradius: ".5rem",
+        cursor: "pointer",
+        alignitems: "center",
+        justifycontent: "space-between"
     }
 };
 
@@ -43,42 +53,50 @@ function Resume() {
         <div style={styles.card}>
             <h1 style={styles.heading}>Resume</h1>
             <div style={styles.content}>
-                <h2>Skills</h2>
-                <ul>
-                    <li>Project Management</li>
-                    <li>Agile Project Management</li>
-                </ul>
-                <h2>Languages</h2>
-                <ul>
-                    <li>JavaScript</li>
-                    <li>CSS</li>
-                    <li>HTML</li>
-                    <li>SQL</li>
-                    <li>NoSQL</li>
-                </ul>
-                <h2>Applications</h2>
-                <ul>
-                    <li>Infor MRM</li>
-                    <li>Infor MRM Marketing Anayltics</li>
-                    <li>GitHub</li>
-                    <li>Heroku</li>
-                    <li>MongoDB</li>
-                    <li>MySQL</li>
-                </ul>
-                <h2>Tools</h2>
-                <ul>
-                    <li>VS Code</li>
-                    <li>Git</li>
-                    <li>Node</li>
-                    <li>Web APIs</li>
-                    <li>Third Party APIs</li>
-                    <li>Server Side APIs</li>
-                    <li>OOP</li>
-                    <li>MVC</li>
-                    <li>PWA</li>
-                    <li>React</li>
-                    <li>MERN</li>
-                </ul>
+                <div>
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Project Management</li>
+                        <li>Agile Project Management</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>CSS</li>
+                        <li>HTML</li>
+                        <li>SQL</li>
+                        <li>NoSQL</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Applications</h2>
+                    <ul>
+                        <li>Infor MRM</li>
+                        <li>Infor MRM Marketing Anayltics</li>
+                        <li>GitHub</li>
+                        <li>Heroku</li>
+                        <li>MongoDB</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Tools</h2>
+                    <ul>
+                        <li>VS Code</li>
+                        <li>Git</li>
+                        <li>Node</li>
+                        <li>Web APIs</li>
+                        <li>Third Party APIs</li>
+                        <li>Server Side APIs</li>
+                        <li>OOP</li>
+                        <li>MVC</li>
+                        <li>PWA</li>
+                        <li>React</li>
+                        <li>MERN</li>
+                    </ul>
+                </div>
             </div>
             <div style={styles.resume}>
                 <a href="https://docs.google.com/document/d/13wgubLoO05UT-smM2d87l9ZUgbWhbILTBTm4uI2aoXk/edit?usp=sharing" styles={styles.button}>Download Resume</a>

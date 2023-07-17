@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const styles = {
     navbar: {
-        margin: 7,
+        margin: 20,
         marginright: 1,
         display: "flex",
         flexdirection: 'row',
