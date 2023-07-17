@@ -50,6 +50,7 @@ const styles = {
     section: {
         marginTop: 40,
         marginBottom: 40,
+        color: "#2c2c2c",
         backgroundColor: "#858585",
         textalign: "center",
         alignitems: "center",

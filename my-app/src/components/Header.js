@@ -14,11 +14,13 @@ const styles = {
     h1: {
         fontSize: "36px",
         fontweight: "bolder",
-        color: "#000000"
+        color: "#aba9b3"
     },
     h3: {
         fontSize: "30px",
-        fontweight: "bolder",
+        fontWeight: "bolder",
+        color: "#aba9b3",
+        justifyItems: "end",
     },
 };
 

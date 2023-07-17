@@ -21,6 +21,7 @@ const styles = {
         color: '#aba9b3',
         textAlign:'justify',
         padding: 20,
+        color: "#2c2c2c",
         alightItems: "center",
         display: "flex",
     },
@@ -70,8 +71,8 @@ function Resume() {
                     <li>Git</li>
                     <li>Node</li>
                     <li>Web APIs</li>
-                    <li>Third Parth APIs</li>
-                    <li>Server Side APIs</li>                    <li>VS Code</li>
+                    <li>Third Party APIs</li>
+                    <li>Server Side APIs</li>
                     <li>OOP</li>
                     <li>MVC</li>
                     <li>PWA</li>
