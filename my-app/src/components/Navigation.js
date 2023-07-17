@@ -22,19 +22,19 @@ function Navbar({setPage}) {
     return (
         <nav className="button btn-group-toggle" data-toggle="buttons" style={styles.navbar}>
             <button className="button btn-secondary active" style={styles.button}
-        href="#projectAboutMe" onClick={() => setPage('projectAboutMe')}>
+        href="#AboutMe" onClick={() => setPage('AboutMe')}>
           About Me
       </button>
       <button className="button"   style={styles.button}
-        href="#projectPortfolio" onClick={() => setPage('projectPortfolio')}>
+        href="#Portfolio" onClick={() => setPage('Portfolio')}>
          Portfolio
       </button>
       <button className="button"  style={styles.button}
-        href="#projectContact" onClick={() => setPage('projectContact')}>
+        href="#Contact" onClick={() => setPage('Contact')}>
          Contact
       </button>
       <button className="button"   style={styles.button}
-        href="#projectResume" onClick={() => setPage('projectResume')}>
+        href="#Resume" onClick={() => setPage('Resume')}>
          Resume
       </button>
     </nav>
