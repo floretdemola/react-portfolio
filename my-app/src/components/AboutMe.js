@@ -1,5 +1,5 @@
 import React from "react";
-import pic from "../../../images/IMG_8704.png";
+import pic from "/Users/fernandoloretdemola/Desktop/SoftwareEngineer/Homework/react-portfolio/my-app/src/components/assets/IMG_8704.png";
 import "bootstrap/dist/css/bootstrap.css";
 
 const styles = {

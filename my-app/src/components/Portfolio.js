@@ -70,7 +70,7 @@ function Card() {
                     <input
                         style={styles.input}
                         type="image"
-                        src={require("../../../images/Project_Pictue_1.png")}
+                        src={require("./assets/Project_Pictue_1.png")}
                         alt="brewsomeweatherapp">
                     </input>
                     <button style={styles.button}
@@ -84,7 +84,7 @@ function Card() {
                     <input
                         style={styles.input}
                         type="image"
-                        src={require("../../../images/scriptscout.png")}
+                        src={require("./assets/scriptscout.png")}
                         alt="brewsomeweatherapp">
                     </input>
                     <button style={styles.button}
@@ -98,7 +98,7 @@ function Card() {
                     <input
                         style={styles.input}
                         type="image"
-                        src={require("../../../images/noteTakeApp.png")}
+                        src={require("./assets/noteTakerApp.png")}
                         alt="brewsomeweatherapp">
                     </input>
                     <button style={styles.button}
@@ -112,7 +112,7 @@ function Card() {
                     <input
                         style={styles.input}
                         type="image"
-                        src={require("../../../images/techBlog.png")}
+                        src={require("./assets/techBlog.png")}
                         alt="brewsomeweatherapp">
                     </input>
                     <button style={styles.button}

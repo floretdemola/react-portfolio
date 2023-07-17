@@ -39,7 +39,6 @@ function Card() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
-    const [errorMessage, setErrorMessage] = useState("");
   
     const handleInputChange = (e) => {
       const { target } = e;
@@ -55,20 +54,16 @@ function Card() {
       }
     };
     
-      const submitFormHandler = () => {
-        e.preventDefault();
+      const submitFormHandler = (event) => {
+        event.preventDefault();
         if (!validateEmail(email)){
-            setErrorMessage("Email is invalid, please enter your email");
-            setTimeout(() => {
-                setErrorMessage("");
-                }, 6000);
+            prompt("Email is invalid, please enter your email");
             return;
         }
 
         setName("");
         setEmail("");
         setMessage("");
-        setErrorMessage("");
     };
 
     return (

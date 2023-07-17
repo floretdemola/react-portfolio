@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Navbar from './components/Navigation';
+import Header from './components/Header';
+import AboutMe from './components/AboutMe';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
+
+const styles = {
+  main: {
+    background: "#858585",
+    paddingTop: 0.1,
+    minHeight: '100vh',
+  },
+}
+
+
 
 function App() {
+
+  const [page, setPage] = useState('AboutMe');
+
+  let CurrentPage;
+
+  if (page === 'AboutMe') CurrentPage = AboutMe;
+  if (page === 'Contact') CurrentPage = Contact;
+  if (page === 'Portfolio') CurrentPage = Portfolio;
+  if (page === 'Resume') CurrentPage = Resume;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={styles.main}>
+      <>
+      <Header />
+      <Navbar setPage={setPage} />
+      <CurrentPage />
+      <Footer />
+      </>
     </div>
   );
 }
