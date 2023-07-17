@@ -37,7 +37,7 @@ const styles = {
     }
 };
 
-function Card() {
+function Resume() {
     return (
         <div style={styles.card}>
             <h1 style={styles.heading}>Resume</h1>
@@ -86,4 +86,4 @@ function Card() {
     );
 };
 
-export default Card;
+export default Resume;

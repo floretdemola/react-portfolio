@@ -24,9 +24,10 @@ function App() {
   let CurrentPage;
 
   if (page === 'AboutMe') CurrentPage = AboutMe;
-  if (page === 'Contact') CurrentPage = Contact;
-  if (page === 'Portfolio') CurrentPage = Portfolio;
-  if (page === 'Resume') CurrentPage = Resume;
+  else if (page === 'Contact') CurrentPage = Contact;
+  else if (page === 'Portfolio') CurrentPage = Portfolio;
+  else if (page === 'Resume') CurrentPage = Resume;
+  else CurrentPage = AboutMe;
 
   return (
     <div style={styles.main}>

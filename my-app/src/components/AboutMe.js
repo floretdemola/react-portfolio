@@ -36,10 +36,13 @@ const styles = {
         paddingBottom: 20,
         paddingRight: 20,
         textAlign: "center",
+    },
+    bodyCopy: {
+        color: "#2c2c2c",
     }
 };
 
-function Card() {
+function AboutMe() {
     return (
         <div style={styles.card}>
       <h1 style={styles.heading}>About Me</h1>
@@ -47,9 +50,9 @@ function Card() {
         <div style={styles.picture}>
         <img style={styles.image} src={pic} alt="Me" />
         </div>
-        <p>
+        <p style={styles.bodyCopy}>
             My name is Fernando Loret de Mola. I live in Florida and I am pursuing a career in Software Engineering.</p>
-            <p>
+            <p style={styles.bodyCopy}>
             I am a graduate from Florida Southern College where I earned my Bachelors of Science degree in Business Administration and Psychology in 2014. 
             I've worked at Publix for over 10 years and have recently decided to learn a new set of skills that will help me approach upcoming projects with a holisitic point of view. 
             I've worked on several projects where I managed a team to help create several sites and that helped my interest in this software development role. I am eager to learn and grow in this new field. 
@@ -59,4 +62,4 @@ function Card() {
   );
 }
 
-export default Card;
+export default AboutMe;

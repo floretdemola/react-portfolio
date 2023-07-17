@@ -59,7 +59,7 @@ const styles = {
     },
 };
 
-function Card() {
+function Portfolio() {
     return (
         <div style={styles.card}>
             <h1 className="d-flex align-items-center" styles={styles.heading}>Portfolio</h1>
@@ -125,4 +125,4 @@ function Card() {
     );
 }
 
-export default Card;
+export default Portfolio;
