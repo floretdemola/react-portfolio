@@ -8,7 +8,9 @@ const techBlogGitHub ="https://github.com/floretdemola/techblog";
 const noteTakerApp = "https://note-taker-floretdemola.herokuapp.com/";
 const noteTakerGitHub = "https://github.com/floretdemola/note-taker";
 const sciptScoutApp = "https://script-scout.herokuapp.com/";
-const sciptScoutGitHub = "https://github.com/TheMaddoxJ/ScriptScout"
+const sciptScoutGitHub = "https://github.com/TheMaddoxJ/ScriptScout";
+const jetsetgoGithub = "https://github.com/jhdavey/jsg";
+const jetsetgoApp = "https://geekblog2000.herokuapp.com/";
 
 const openInNewTab = (url) => {
     window.open(url, "_blank", "noopener,noreferrer");
@@ -94,6 +96,20 @@ function Portfolio() {
                     onClick={() => openInNewTab(sciptScoutApp)}>ScriptScout App</button>
                     <button style={styles.button}
                     onClick={() => openInNewTab(sciptScoutGitHub)}>ScriptScout GitHub</button>
+                </section>
+                <br></br>
+                <section style={styles.section}>
+                    <h3>JetSetGo</h3>
+                    <input
+                        style={styles.input}
+                        type="image"
+                        src={require("./assets/jetsetgo.png")}
+                        alt="brewsomeweatherapp">
+                    </input>
+                    <button style={styles.button}
+                    onClick={() => openInNewTab(jetsetgoApp)}>JetSetGo App</button>
+                    <button style={styles.button}
+                    onClick={() => openInNewTab(jetsetgoGithub)}>JetSetGo GitHub</button>
                 </section>
                 <br></br>
                 <section style={styles.section}>
